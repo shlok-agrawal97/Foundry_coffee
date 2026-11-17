@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Foundry Coffee Roasters — Coffee, cast in fire.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<input type="checkbox" id="theme-toggle">
+
+<!-- ============ NAVBAR ============ -->
+<header class="navbar" id="top">
+  <div class="navbar-inner">
+    <a href="#top" class="brand"><span class="brand-mark"></span>FOUNDRY</a>
+
+    <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
+    <label for="nav-toggle" class="hamburger" aria-label="Open menu"><span></span></label>
+
+    <nav class="nav-links">
+      <a href="#blends">Blends</a>
+      <a href="#process">Process</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#visit">Visit</a>
+    </nav>
+
+    <div class="nav-right">
+      <label class="theme-switch" for="theme-toggle">
+        <span class="theme-switch-track"><span class="theme-switch-thumb"></span></span>
+      </label>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero grain">
+    <div class="container hero-grid">
+      <div>
+        <p class="eyebrow">Small-batch roastery · Est. 2019</p>
+        <h1>Roasted the way <em>iron</em> is forged.</h1>
+        <p class="hero-sub">We fire single-origin beans in small drum batches, cupping every roast before it leaves the shop. No shortcuts, no filler blends — just coffee treated like a craft.</p>
+        <div class="hero-actions">
+          <a href="#blends" class="btn btn-primary">Shop the roasts</a>
+          <a href="#process" class="btn btn-ghost">See the process</a>
+        </div>
+
+
+        
+        <div class="data-line">
+          <span>BATCH NO. <b>214</b></span>
+          <span>ROASTED <b>AUG 04</b></span>
+          <span>ALTITUDE <b>1,200–2,100M</b></span>
+          <span>ORIGINS <b>4 COUNTRIES</b></span>
+        </div>
+      </div>
+
+      <div class="badge-wrap">
+
+        
+        <svg class="badge-ring" viewBox="0 0 220 220">
+          <defs>
+            <path id="circlePath" d="M110,110 m-90,0 a90,90 0 1,1 180,0 a90,90 0 1,1 -180,0"/>
+          </defs>
+          <text font-family="Space Mono, monospace" font-size="10" letter-spacing="3" fill="var(--text-dim)">
+            <textPath href="#circlePath" startOffset="0%">
+              EST. 2019 • SMALL BATCH • HAND ROASTED • CAST IN FIRE •
+            </textPath>
+          </text>
+        </svg>
+
+
+        <div class="badge-core">
+          <span class="glyph"></span>
+          <span>FOUNDRY<br>ROASTERY</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BLEND CARDS ============ -->
+  <section class="section section-alt" id="blends">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Current batch</p>
+          <h2>The blends</h2>
+        </div>
+        <p>Four origins, four fires. Each bag lists its roast date, altitude and process, same as we log it in the roastery.</p>
+      </div>
+
+      <div class="card-grid">
+
+        <div class="card">
+          <p class="card-tag">Ethiopia · Washed</p>
+          <h3>Yirgacheffe Dawn</h3>
+          <div class="roast-bar">
+            <span class="filled"></span><span class="filled"></span><span></span><span></span><span></span>
+          </div>
+          <p class="card-notes">Bergamot, white peach, jasmine. Light roast, bright acidity.</p>
+          <div class="card-foot">
+            <span class="card-price">$19 / 12oz</span>
+            <span class="stock-pill">In stock</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <p class="card-tag">Colombia · Honey</p>
+          <h3>Colombia Ember</h3>
+          <div class="roast-bar">
+            <span class="filled"></span><span class="filled"></span><span class="filled"></span><span></span><span></span>
+          </div>
+          <p class="card-notes">Caramel, toasted hazelnut, red apple. Medium roast, balanced body.</p>
+          <div class="card-foot">
+            <span class="card-price">$18 / 12oz</span>
+            <span class="stock-pill">In stock</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <p class="card-tag">Kenya · Washed</p>
+          <h3>Kenya Foundry Blend</h3>
+          <div class="roast-bar">
+            <span class="filled"></span><span class="filled"></span><span class="filled"></span><span></span><span></span>
+          </div>
+          <p class="card-notes">Blackcurrant, wine, brown sugar. Medium-light, juicy acidity.</p>
+          <div class="card-foot">
+            <span class="card-price">$20 / 12oz</span>
+            <span class="stock-pill">In stock</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <p class="card-tag">Sumatra · Wet-hulled</p>
+          <h3>Sumatra Anvil</h3>
+          <div class="roast-bar">
+            <span class="filled"></span><span class="filled"></span><span class="filled"></span><span class="filled"></span><span></span>
+          </div>
+          <p class="card-notes">Cedar, dark chocolate, cracked pepper. Dark roast, heavy body.</p>
+          <div class="card-foot">
+            <span class="card-price">$17 / 12oz</span>
+            <span class="stock-pill">Low stock</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROCESS CAROUSEL ============ -->
+  <section class="section" id="process">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">The process</p>
+          <h2>From bean to cup</h2>
+        </div>
+        <p>Scroll or use the arrows below — five stages, same order every batch runs through.</p>
+      </div>
+
+      <div class="process-shell">
+        <div class="process-track">
+
+          <article class="process-slide" id="step-1">
+            <span class="step-num">01 / Sourcing</span>
+            <div class="step-visual"></div>
+            <h3>Sourcing</h3>
+            <p>We buy direct from four cooperatives, paying above fair-trade floor for lots we've cupped ourselves.</p>
+          </article>
+
+          <article class="process-slide" id="step-2">
+            <span class="step-num">02 / Roasting</span>
+            <div class="step-visual"></div>
+            <h3>Roasting</h3>
+            <p>Small drum batches of 12kg, tracked minute-by-minute against a roast curve unique to each origin.</p>
+          </article>
+
+          <article class="process-slide" id="step-3">
+            <span class="step-num">03 / Cooling</span>
+            <div class="step-visual"></div>
+            <h3>Cooling</h3>
+            <p>Beans drop into the cooling tray the instant they hit target, locking the roast at exactly the right second.</p>
+          </article>
+
+          <article class="process-slide" id="step-4">
+            <span class="step-num">04 / Cupping</span>
+            <div class="step-visual"></div>
+            <h3>Cupping</h3>
+            <p>Every batch is cupped blind against the reference roast before it's cleared for packing.</p>
+          </article>
+
+          <article class="process-slide" id="step-5">
+            <span class="step-num">05 / Packing</span>
+            <div class="step-visual"></div>
+            <h3>Packing</h3>
+            <p>Bagged and valved within an hour of cooling, dated by hand, shipped within the week.</p>
+          </article>
+
+        </div>
+
+        <nav class="process-nav" aria-label="Process steps">
+          <a href="#step-1" aria-label="Step 1">1</a>
+          <a href="#step-2" aria-label="Step 2">2</a>
+          <a href="#step-3" aria-label="Step 3">3</a>
+          <a href="#step-4" aria-label="Step 4">4</a>
+          <a href="#step-5" aria-label="Step 5">5</a>
+        </nav>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ REVIEWS ============ -->
+  <section class="section section-alt" id="reviews">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Reviews</p>
+          <h2>Word on the street</h2>
+        </div>
+        <p>Notes from people who've gone through more bags than we'd like to admit.</p>
+      </div>
+
+      <div class="review-grid">
+        <article class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-quote">The Sumatra Anvil is the first dark roast that hasn't tasted burnt to me. Genuinely different roastery.</p>
+          <div class="review-meta"><span>Priya M.</span><span>Verified · Jul 2026</span></div>
+        </article>
+
+        <article class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-quote">Subscribed after one bag of the Yirgacheffe. Roast dates are always within a few days of arrival.</p>
+          <div class="review-meta"><span>Daniel O.</span><span>Verified · Jun 2026</span></div>
+        </article>
+
+        <article class="review-card">
+          <div class="review-stars">★★★★☆</div>
+          <p class="review-quote">Kenya blend is fantastic with a pour-over. Wish the bags came in a larger size, otherwise no complaints.</p>
+          <div class="review-meta"><span>Aisha K.</span><span>Verified · Jun 2026</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer id="visit">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#top" class="brand"><span class="brand-mark"></span>FOUNDRY</a>
+        <p>Small-batch coffee roasted in small drums, cupped before it ships, and dated by hand on every bag.</p>
+        <div class="footer-social">
+          <a href="#top">Instagram</a>
+          <a href="#top">Threads</a>
+          <a href="#top">Newsletter</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <a href="#blends">Blends</a>
+        <a href="#top">Subscriptions</a>
+        <a href="#top">Merch</a>
+        <a href="#top">Gift cards</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="#top">Our story</a>
+        <a href="#process">The process</a>
+        <a href="#top">Wholesale</a>
+        <a href="#top">Careers</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Visit</h4>
+        <p>412 Kiln Street<br>Raipur, Chhattisgarh</p>
+        <p>Mon–Sat · 8am–6pm</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 Foundry Coffee Roasters. All rights reserved.</span>
+      <span>Built with HTML &amp; CSS only — no JavaScript.</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
